@@ -13,8 +13,8 @@ public class UnimaLbApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(UnimaLbApplication.class, args);
 	}
-//	@GetMapping
-//	public  String Notece(){
-//		return "if you want student api visit =>'student/v1/student'";
-//	}
+	@GetMapping
+	public  String Notece(){
+		return "if you want student api visit =>'api/v1/student'";
+	}
 }

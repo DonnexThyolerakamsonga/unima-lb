@@ -1,12 +1,11 @@
 package com.mvaka.unimalb.unimalb;
 
-import org.springframework.stereotype.Component;
-import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
 import java.time.Month;
 import java.util.List;
-@Component
+@Service
 public class SudentService {
     public static List<Student> getStudents(){
         return List.of(
